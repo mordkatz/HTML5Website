@@ -35,5 +35,5 @@ header{
 	padding-top: 30px;
 	min-height: 70px;
 	/*orenge border*/
-	border-bottom:#e8461d;
+	border-bottom:#e8461d 3px solid;
 }
