@@ -1,0 +1,39 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	/*another way to write the code above is
+	 * font: 15px/1.5 Arial, Helvetica, sans-serif;
+	 */
+	padding: 0;
+	margin: 0;
+	/*the bacground color to a light gray*/
+	background-color: #f4f4f4;
+}
+
+/*this is a class (then ever you have a class you use the dot in the front, when you have 
+ * an ide you use the number sign)*/
+/*this is global so it is for anything that can be put anywhere*/
+.container{
+	/*in order for it to be responsive we set it to a persentage instead of the number of pixels*/
+	width: 80%;
+	
+	/*to move everything to the midel of the page*/
+	margin: auto;
+
+	/*if something goes outside of a dive it should be hidden as aposed to having a scrol bar*/
+	overflow: hidden;
+
+}
+
+/*Header*/
+header{
+	/*make the background a blueish grayish color*/
+	background: #35424a;
+	/*white text*/
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	/*orenge border*/
+	border-bottom:#e8461d;
+}
